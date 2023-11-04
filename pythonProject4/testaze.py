@@ -378,15 +378,13 @@ btnfuncthash1.place(x=70, y=40, )
 btnfunctcesar2 = customtkinter.CTkButton(master=home, text="   Caesar Cipher  ", width=130, height=40,
                                          hover_color="#4158D0", command=hometocaesarmenu)
 btnfunctcesar2.place(x=70, y=115, )
-btnfunctdataset3 = customtkinter.CTkButton(master=home, text="DataSet Collection", width=100, height=40,
-                                           hover_color="#4158D0", command=hometodataset)
-btnfunctdataset3.place(x=70, y=190, )
+
 btnfunctupdate4 = customtkinter.CTkButton(master=home, text="Update Your account", width=120, height=40,
                                           hover_color="#4158D0", command=hometoupdate)
-btnfunctupdate4.place(x=70, y=265, )
+btnfunctupdate4.place(x=70, y=190, )
 btnfunctupdate5 = customtkinter.CTkButton(master=home, text="Delete Your account", width=100, height=40,
                                           hover_color="#4158D0", command=hometodelete)
-btnfunctupdate5.place(x=70, y=340, )
+btnfunctupdate5.place(x=70, y=265, )
 
 ##############################
 ## Menu du (hash256 , attack by dict , return)
